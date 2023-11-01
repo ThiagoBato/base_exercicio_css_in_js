@@ -1,13 +1,14 @@
 import styles from './Hero.module.css'
+import { FormStyle, HeroTitleStyle } from './styles'
 
 const Hero = () => (
-  <form className={styles.form}>
+  <FormStyle>
     <div className="container">
-      <h2 className={styles.heroTitle}>
+      <HeroTitleStyle>
         As melhores vagas para tecnologia, design e artes visuais.
-      </h2>
+      </HeroTitleStyle>
     </div>
-  </form>
+  </FormStyle>
 )
 
 export default Hero
